@@ -17,7 +17,7 @@ It is fast, easy, and intuitive way of deploying your React app.
 Simply follow this step from getting started to deployment:
 
 ```
-$ `git clone https://github.com/xkawi/creat-react-app-now`
+$ `git clone https://github.com/xkawi/create-react-app-now`
 $ `npm install`
 $ `npm run deploy`
 ```
@@ -30,7 +30,7 @@ You will enjoy all the benefits that now offers out-of-the-box: realtime, immuta
 
 # Alternatives
 
-If you prefer something else (which I hope you don't), here are other alternatives mentioned in create-react-app's generated project's README:
+If you prefer something else, here are other alternatives mentioned in create-react-app's generated project's README:
 
 ## GitHub Pages
 
