@@ -1,11 +1,11 @@
 {
   "name": "create-react-app-now",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "private": true,
   "devDependencies": {
-    "now": "^0.19.0",
-    "now-serve": "^0.3.1",
-    "react-scripts": "0.2.1"
+    "now": "^0.23.1",
+    "now-serve": "^0.4.0",
+    "react-scripts": "0.4.1"
   },
   "dependencies": {
     "react": "^15.2.1",
