@@ -2,6 +2,8 @@
 
 Deploy React.js Static Web Apps generated with [facebookincubator/create-react-app](https://github.com/facebookincubator/create-react-app) to Zeit's awesome [now.sh](https://zeit.co/now/) service.
 
+I wrote an article about this project here: [Zero Configuration Deployment for React app with Zeit Now](https://medium.com/@kawixiao/zero-configuration-deployment-for-react-apps-with-zeits-now-4f002be98c#.eyvj3mjdb)
+
 # Why
 
 This project is created using [facebookincubator/create-react-app](https://github.com/facebookincubator/create-react-app).
