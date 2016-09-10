@@ -3,7 +3,7 @@
   "version": "0.0.2",
   "private": true,
   "devDependencies": {
-    "now": "^0.23.1",
+    "now": "^0.25.0",
     "now-serve": "^0.4.0",
     "react-scripts": "0.4.1"
   },
