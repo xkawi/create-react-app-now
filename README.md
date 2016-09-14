@@ -28,7 +28,7 @@ It may ask you to enter your email to login to now, please do so.
 
 Now, whenever you want to deploy new changes, just run `npm run deploy` to get new public link, for free! (_...unless you pay for it_) :smile:
 
-You will enjoy all the benefits that now offers out-of-the-box: realtime, immutable, and unlimited deployments all with just 1 command.
+You will enjoy all the benefits that now offers out-of-the-box: realtime and immutable deployments all with just 1 command.
 
 # Alternatives
 
