@@ -36,10 +36,10 @@ You might see some red text appears in the log. You can safely ignore this, beca
 
 # Alternatives
 
-If you prefer something else, please refer to create-react-app documentation [here](https://github.com/facebookincubator/create-react-app/blob/master/template/README.md#deployment).
+If you prefer something else, please refer to create-react-app documentation [here](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md#deployment).
 
 # More
 
-Read more about create-react-app [here](https://github.com/facebookincubator/create-react-app/blob/master/template/README.md)
+Read more about create-react-app [here](https://github.com/facebookincubator/create-react-app)
 
 Read more about Zeit's Now.sh [here](https://zeit.co/now)
