@@ -13,5 +13,5 @@ before_script:
   - sh -e /etc/init.d/xvfb start
 
 script:
-  - npm run lint
+  - npm install
   - npm test
