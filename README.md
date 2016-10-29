@@ -4,6 +4,15 @@ Deploy React.js Static Web Apps generated with [facebookincubator/create-react-a
 
 I wrote an article about this project here: [Zero Configuration Deployment for React app with Zeit Now](https://medium.com/@kawixiao/zero-configuration-deployment-for-react-apps-with-zeits-now-4f002be98c#.eyvj3mjdb)
 
+# Important
+
+I personally and strongly recommend you to check out [Next.js](https://zeit.co/blog/next) by Zeit team.
+That will be my personal go to choice as well when creating new React project, and deploy to now seamlessly.
+
+Though create-react-app-now can serves as an example on how you can use create-react-app and zeit's now together.  
+
+Having said that, it is likely that I will not actively maintain this repo anymore (e.g. update the dependencies). I will still accept PR though.
+
 # Why
 
 This project is created using [facebookincubator/create-react-app](https://github.com/facebookincubator/create-react-app).
