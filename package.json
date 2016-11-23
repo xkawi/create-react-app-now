@@ -4,7 +4,7 @@
   "private": true,
   "devDependencies": {
     "list": "^0.8.2",
-    "now": "^0.28.0",
+    "now": "^0.29.0",
     "react-scripts": "0.7.0"
   },
   "dependencies": {
