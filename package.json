@@ -4,11 +4,11 @@
   "private": true,
   "devDependencies": {
     "list": "^0.8.2",
-    "now": "^0.28.0",
-    "react-scripts": "0.7.0"
+    "now": "^0.34.0",
+    "react-scripts": "0.8.1"
   },
   "dependencies": {
-    "react": "^15.3.2",
+    "react": "^15.4.0",
     "react-dom": "^15.4.0"
   },
   "scripts": {
