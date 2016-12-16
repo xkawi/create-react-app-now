@@ -1,6 +1,6 @@
 # create-react-app-now
 
-Deploy React.js Static Web Apps generated with [facebookincubator/create-react-app](https://github.com/facebookincubator/create-react-app) to Zeit's awesome [now.sh](https://zeit.co/now/) service.
+Deploy React.js Static Web Apps generated with [facebookincubator/create-react-app](https://github.com/facebookincubator/create-react-app) to Zeit's awesome [Now.sh](https://zeit.co/now/) service.
 
 I wrote an article about this project here: [Zero Configuration Deployment for React app with Zeit Now](https://medium.com/@kawixiao/zero-configuration-deployment-for-react-apps-with-zeits-now-4f002be98c#.eyvj3mjdb)
 
@@ -15,12 +15,12 @@ Having said that, it is likely that I will not actively maintain this repo anymo
 
 # Why
 
-This project is created using [facebookincubator/create-react-app](https://github.com/facebookincubator/create-react-app).
+create-react-app-now is created using [facebookincubator/create-react-app](https://github.com/facebookincubator/create-react-app).
 Although it supports deployment to github pages and heroku, it does not feel intuitive just yet, as we need to run lots of commands.
 
 This project is specifically to solve just that, with just 1 command: `npm run deploy`
 
-This is achieved by using Zeit's awesome [now.sh](https://zeit.co/now/) service.
+This is achieved by using Zeit's awesome [Now.sh](https://zeit.co/now/) service.
 It is fast, easy, and intuitive way of deploying your React app.
 
 # How
@@ -34,17 +34,19 @@ $ npm install
 $ npm run deploy
 ```
 
-It may ask you to enter your email to login to now, please do so.
+First command installs the `now` cli globally as npm package. Another (or suggested) approach is to install [Now Desktop](https://zeit.co/desktop) to ensure automatic updates of `now` cli.
 
-Now, whenever you want to deploy new changes, just run `npm run deploy` to get new public link, for free! :smile:
+Subsequent commands simply clone this repo, install necessary npm packages and deploy it to Now.
 
-You will enjoy all the benefits that now offers out-of-the-box: realtime and immutable deployments all with just 1 command.
+Whenever you want to deploy new changes, just run `npm run deploy` again to get new public link, for free! :smile:
 
-# Note
+You will enjoy all the benefits that Now offers out-of-the-box: real-time and immutable deployments all within 1 command.
 
-You might see some red text appears in the log. You can safely ignore this, because your project will still be deployed successfully.
+## Note
 
-# Alternatives
+You might see some red text appears or warnings in the log. You can safely ignore this, because your project will still be deployed successfully.
+
+# Alternatives Deployment
 
 If you prefer something else, please refer to create-react-app documentation [here](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md#deployment).
 
