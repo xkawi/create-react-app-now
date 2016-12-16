@@ -28,6 +28,7 @@ It is fast, easy, and intuitive way of deploying your React app.
 Simply follow this step from getting started to deployment:
 
 ```
+$ npm install -g now
 $ git clone https://github.com/xkawi/create-react-app-now
 $ npm install
 $ npm run deploy
