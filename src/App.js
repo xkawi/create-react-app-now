@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router';
 import logo from './logo.svg';
 import './App.css';
 
@@ -15,6 +16,8 @@ class App extends Component {
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
         <p>REACT_APP_SECRET_CODE: { !secretCode ? 'env not set yet' : secretCode }</p>
+        <p><Link to='/about'>about us</Link></p>
+        {this.props.children}
       </div>
     );
   }
