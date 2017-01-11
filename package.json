@@ -12,7 +12,7 @@
     "react-router": "^3.0.0"
   },
   "scripts": {
-    "now-start": "serve build/",
+    "now-start": "cd build && serve -s ./",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
