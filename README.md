@@ -6,6 +6,8 @@ I wrote an article about this project here: [Zero Configuration Deployment for R
 
 # Important
 
+UPDATE: create-react-app now officially recommend using "serve" to deploy your create-react-app project. The documentation can be found here: https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md#deployment
+
 I personally and strongly recommend you to check out [Next.js](https://zeit.co/blog/next) by Zeit team.
 That will be my personal go to choice as well when creating new React project, and deploy to now seamlessly.
 
