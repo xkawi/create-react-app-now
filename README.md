@@ -1,10 +1,12 @@
 # create-react-app-now
 
-Deploy React.js Static Web Apps generated with [facebookincubator/create-react-app](https://github.com/facebookincubator/create-react-app) to Zeit's awesome [Now.sh](https://zeit.co/now/) service.
+Deploy React.js Static Web Apps generated with [facebook/create-react-app](https://github.com/facebook/create-react-app) to Zeit's awesome [Now.sh](https://zeit.co/now/) service.
 
 I wrote an article about this project here: [Zero Configuration Deployment for React app with Zeit Now](https://medium.com/@kawixiao/zero-configuration-deployment-for-react-apps-with-zeits-now-4f002be98c#.eyvj3mjdb)
 
 # Important
+
+UPDATE: create-react-app now officially recommend using "serve" to deploy your create-react-app project. The documentation can be found here: https://create-react-app.dev/docs/deployment
 
 I personally and strongly recommend you to check out [Next.js](https://zeit.co/blog/next) by Zeit team.
 That will be my personal go to choice as well when creating new React project, and deploy to now seamlessly.
@@ -15,7 +17,7 @@ Having said that, it is likely that I will not actively maintain this repo anymo
 
 # Why
 
-create-react-app-now is created using [facebookincubator/create-react-app](https://github.com/facebookincubator/create-react-app).
+create-react-app-now is created using [facebook/create-react-app](https://github.com/facebook/create-react-app).
 Although it supports deployment to github pages and heroku, it does not feel intuitive just yet, as we need to run lots of commands.
 
 This project is specifically to solve just that, with just 1 command: `npm run deploy`
@@ -48,10 +50,10 @@ You might see some red text appears or warnings in the log. You can safely ignor
 
 # Alternatives Deployment
 
-If you prefer something else, please refer to create-react-app documentation [here](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md#deployment).
+If you prefer something else, please refer to create-react-app documentation [here](https://create-react-app.dev/docs/deployment#other-solutions).
 
 # More
 
-Read more about create-react-app [here](https://github.com/facebookincubator/create-react-app)
+Read more about create-react-app [here](https://github.com/facebook/create-react-app)
 
 Read more about Zeit's Now.sh [here](https://zeit.co/now)
